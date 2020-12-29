@@ -79,7 +79,7 @@ startButton.addEventListener("click", function () {
 
 
 function getInfo() { //getting all the data from API
-    return axios.get("https://raw.githubusercontent.com/vasurajan/devi/master/json/" + level + ".json")
+    return axios.get("https://raw.githubusercontent.com/vasurajan/quiz/master/json/" + level + ".json")
         .then(function (response) {
             // handle success
             dataInfo = response.data.results;
