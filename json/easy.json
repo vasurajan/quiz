@@ -1,0 +1,83 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "An algebraic expression containing three terms is called a?",
+            "correct_answer": "trinomial",
+            "incorrect_answers": [
+                "monomial",
+                "binomial",
+                "all of these"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Number of terms in the expression 3.x².y - 2.y².z - z².x + 5 is?",
+            "correct_answer": "4",
+            "incorrect_answers": [
+                "2",
+                "3",
+                "5"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The terms of expression 4.x² - 3.x.y are:",
+            "correct_answer": "4.x² and -3.x.y",
+            "incorrect_answers": [
+                "4.x² and 3.x.y",
+                "4.x² and -x.y",
+                "x² and x.y"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The subtraction of 5 times of y from x is:",
+            "correct_answer": "x - 5y",
+            "incorrect_answers": [
+                "5x - y",
+                "y - 5x",
+                "5y - x"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "The value of 3.x² - 5.x + 3 when x = 1 is:",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                "0",
+                "-1",
+                "11"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "(5/6)^0 =",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                "6/5",
+                "0",
+                "none of these"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "(-1)^50 × (-1)^51 × (1)^100 × (-1)^101 =",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                "-1",
+                "0",
+                "2"
+            ]
+        }
+        
+    ]
+}

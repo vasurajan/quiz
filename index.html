@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js" defer></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="selector">
+        <h3 class="decoration">Math Quiz Web UI</h3>
+        <p>Set the difficulty level and see how many correct answers you can get out of all the questions!
+        </p>
+        <hr>
+        <div class="option">
+            <div class="one level">
+                <h4>DIFFICULTY LEVEL</h4>
+                <a>Easy</a>
+                <a>Medium</a>
+                <a>Hard</a>
+            </div>
+        </div>
+        <button class="startBtn">START THE QUIZ!</button>
+        <span class="bg-circle"></span>
+        <span class="bg-circle two"></span>
+    </div>
+    <section>
+        <div class="info-block">
+            <h3>Questions</h3>
+            <p class="game-info"><span class="game-info1"></span> <br> Difficulty Level: <span
+                    class="game-info2"></span></p>
+        </div>
+        <div class="question-block">
+
+        </div>
+        <div class="counter">
+            <p><span class="number"></span>/7</p>
+        </div>
+        <span class="bg-circle"></span>
+        <span class="bg-circle two"></span>
+    </section>
+</body>
+
+</html>

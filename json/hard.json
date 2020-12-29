@@ -1,0 +1,82 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "The expression for the number of diagonals that we can make from one vertex of a n sided polygon is:",
+            "correct_answer": "n - 3",
+            "incorrect_answers": [
+                "2n + 1",
+                "n - 2",
+                "5n + 2"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty":"hard",
+            "question": "123.x^2.y - 138.x^2.y is a like term of",
+            "correct_answer": "10.x^2.y",
+            "incorrect_answers": [
+                "10.x.y",
+                "-15.x.y",
+                "-15.x.y²"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "(2^20 ÷ 2^15) × 2^3 =",
+            "correct_answer": "2^8",
+            "incorrect_answers": [
+                "2^15",
+                "2^5",
+                "None of These"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty":"hard",
+            "question": "(8^2 × 8^4) - 2^18 =",
+            "correct_answer": "2^2",
+            "incorrect_answers": [
+                "2^4",
+                "0",
+                "None of These"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty":"hard",
+            "question": "(3^7) ÷ (81 × 3^3) =",
+            "correct_answer": "3^0",
+            "incorrect_answers": [
+                "3",
+                "3^2",
+                "None of These"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty":"hard",
+            "question": "(10 × 5^(n+1)+ 25 × 5^n) ÷ (3 × 5^(n+2)+ 10 × 5^(n+1))",
+            "correct_answer": "3/5",
+            "incorrect_answers": [
+                "1",
+                "0",
+                "5"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Find the mode for the data set, which shows the heights( in inches ) of 10 students in a class: 60, 65, 63, 62, 65, 70, 62, 68, 60, 65",
+            "correct_answer": "1",
+            "incorrect_answers": [
+                "-1",
+                "0",
+                "2"
+            ]
+        }
+    ]
+}

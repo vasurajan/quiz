@@ -1,0 +1,83 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Factors of -5.x².y².z are:",
+            "correct_answer": "-5.x.x.y.y.z",
+            "incorrect_answers": [
+                "-5.x.y.z",
+                "-5.x².y.z",
+                "-5.x.y.z²"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Coefficient of x in -9.x.y².z is:",
+            "correct_answer": "-9.y².z",
+            "incorrect_answers": [
+                "9.y.z",
+                "-9.y.z",
+                "9.y².z"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The side length of the top of a square table is x. The expression for perimeter is:",
+            "correct_answer": "4x",
+            "incorrect_answers": [
+                "4+x",
+                "2x",
+                "8x"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "(2²)^n = (2³)^4, then n = ",
+            "correct_answer": "6",
+            "incorrect_answers": [
+                "4",
+                "3",
+                "12"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "(-7/5)^-1 =",
+            "correct_answer": "-5/7",
+            "incorrect_answers": [
+                "5/7",
+                "7/5",
+                "None of these"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "81^5 ÷ (3²)^5 =",
+            "correct_answer": "3^10",
+            "incorrect_answers": [
+                "3²",
+                "3^5",
+                "none of these"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "(1/4)^-3 - (1/3)^-3 =",
+            "correct_answer": "37",
+            "incorrect_answers": [
+                "1/37",
+                "-37",
+                "-1/37"
+            ]
+        }
+        
+    ]
+}

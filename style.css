@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Staatliches&display=swap');
+
+h1, h2, h3, h4{
+    font-family: 'Inter', sans-serif;
+}
+
+p, li, label, span, button, a{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header{
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 50px;
+    color: rgb(128, 97, 57);
+}
+
+section, .selector{
+    width: 80%;
+    height:80%;
+    background: rgb(8 9 9);
+    text-align: center;
+    display: none;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    box-shadow:  20px 20px 60px #070d1170, 
+    -20px -20px 60px #0000001f;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.selector{
+    display: flex;
+    overflow: hidden;
+    flex-flow: column wrap;
+}
+
+section h3, .selector h3{
+    padding-top : 30px;
+    font-size: 40px;
+    color: #fff8f0;
+    position: relative;
+    z-index: 999;
+}
+
+.selector h3{
+    padding-top: 0px;
+    
+}
+
+.question-block{
+    padding: 30px 40px 20px 0px;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    width: calc(70% - 30px);
+}
+
+.info-block{
+    width: calc(30% - 20px);
+    align-self: center;
+}
+
+.selector p{
+    color: #fff;
+    padding: 40px 0px;
+    line-height: 27px;
+    width: 53%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+    font-size: 20px;
+}
+
+hr{
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.option{
+    width: calc(90% - 20px);
+    height: auto;
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.one{
+    width: calc(50% - 30px);
+    height: 100%;
+    margin: 0 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.one h4{
+    color: #fff8f0;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    font-weight: bold;
+}
+
+.one a{
+    padding: 10px 10px;
+    margin: 5px;
+    color: #fff;
+    width: calc(50% - 40px);
+    background: #ff5b4f;
+    position: relative;
+    z-index: 999;
+    border-radius: 5px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.a-span{
+    width: 90%;
+  
+}
+
+
+.one.category a, .one.level a{
+    display: flex;
+}
+
+.one a.active{
+    background-color: #ff2717;
+    color: #fff;
+}
+
+.one a:hover{
+    background-color: #ff2717;
+    color: #fff;
+    cursor: pointer;
+}
+
+.startBtn{
+    width: 200px;
+    height: 40px;
+    border: none;
+    align-self: center;
+    margin-top: 50px;
+    font-size: 14px;
+    background-color: #29cd57;
+    position: relative;
+    z-index: 999;
+    color: #fff;
+}
+
+.startBtn:hover{
+    background-color: #0feb4d;
+    cursor: pointer;
+    color: #fff;
+}
+
+.bg-circle{
+    height: 900px;
+    width: 900px;
+    /* background: linear-gradient(209deg, rgba(0,231,228,1) 0%, rgba(0,24,130,1) 100%); */
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.1;
+    z-index: 1;
+    left: -20%;
+    overflow: hidden;
+}
+
+
+
+
+.question-block p{
+    color: rgb(255, 246, 234);
+    position: relative;
+    z-index: 999;
+    line-height: 27px;
+    font-size: 20px;
+    z-index: 999;
+}
+
+.game-info{
+    color: #fff8f0;
+    margin-top: 10px;
+    font-size: 15px;
+    position: relative;
+    z-index: 999;
+    padding: 0 30px;
+    line-height: 20px;
+}
+
+.game-info1, .game-info2{
+    color:rgb(255, 250, 240);
+    font-weight: bold;
+}
+
+.question-block button{
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ff5b4f;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    position: relative;
+    z-index: 999;
+    margin-left: 10px;
+}
+
+.question-block button.reset{
+    background-color: rgb(190, 190, 190);
+}
+
+.question-block button.reset:hover{
+    background-color: rgb(143, 143, 143);
+    color: #fff;
+}
+
+.question-block button:hover{
+    background-color: #ff2717;
+    cursor: pointer;
+    color: #fff;
+}
+
+.question-block ul{
+    padding-top: 40px;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+
+
+.question-block li{
+    text-align: left;
+    line-height: 26px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px 20px 10px 50px;
+    color: rgb(128, 97, 57);
+    position: relative;
+    z-index: 999;
+}
+
+.question-block li.active{
+    background-color: rgb(255, 207, 117);
+}  
+
+.question-block li:hover{
+    background-color: rgb(255, 207, 117);
+    cursor: pointer;
+}
+
+.material-icons{
+    position: absolute;
+    vertical-align: middle;
+}
+
+.material-icons.radio{
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+    color:  rgb(128, 97, 57);
+    font-size: 25px;
+}
+
+.material-icons.check{
+    top: 5px;
+    right: -45px;
+    color:  rgb(252, 151, 56);
+    font-size: 40px;
+}
+
+.counter{
+    color: #fff;
+    display: none;
+    margin-top: 0px;
+    position: absolute;
+    top: 87%;
+    left: 61.7%;
+}
+
+.question-block p.score-num{
+    font-size: 100px;
+    padding: 40px;
+    border: 2px dashed burlywood;
+    border-radius: 100%;
+    height: 117px;
+    width: 117px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 117px; 
+    margin: auto;
+    color: rgb(255, 207, 117);
+    animation-name: thescore;
+    animation-duration: 0.5s;
+}
+
+@keyframes thescore {
+    from {
+        font-size: 0px;
+    }
+    to {
+        font-size: 100px;
+    }
+  }
+
+
+.question-block p.score-text{
+    margin-top: 10px;
+    color: burlywood;
+}
+
+
+/* Mobile */
+
+
+
+@media only screen and (max-width: 900px){
+    body{
+        width: 100vw;
+        min-height: 100vh;
+    }
+    section, .selector{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+
+    .option{
+        width: calc(90% - 20px);
+        height: auto;
+        align-self: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .bg-circle{
+        height: 100%;
+        width: 125%;
+        left: -30%;
+    }
+
+    .bg-circle.two{
+        left: 35%;
+        bottom: -30%;
+        height: 70%;
+        width: 95%;
+       
+    }
+
+    .question-block ul{
+        padding-top: 0px;
+        width: 80%;
+    }
+
+    .question-block p{
+        margin-bottom: 20px;
+    }
+
+    .question-block button.reset{
+        order: 2;
+        align-self: center;
+        margin-top: 10px
+    }
+
+    .question-block button.nextBtn{
+        order: 1;
+        align-self: center;
+        margin-top: 30px
+    }
+
+    .question-block.endButton{
+        align-self: center;
+    }
+
+    .question-block button{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .question-block{
+        padding: 30px 40px 20px 40px;
+        width: 80%;
+        display: flex;
+    }
+
+    .info-block{
+        width: 90%;
+    }
+
+    .one.category, .one.level{
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+        justify-content: center;
+    }
+
+    .one.level a{
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px; 
+    }
+
+    .one.category a{
+        width: calc(100% - 20px);
+        margin: 5px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px; 
+    }
+
+    .one.category a:nth-child(3){
+        line-height: 40px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .one.level a{
+        width: calc(100% - 20px);
+        margin: 5px;
+    }
+
+    .endButton{
+        margin-top: 30px;
+        align-self: center;
+        margin-left: 0px;
+    }
+
+    .question-block p.score-num{
+        width: 106px;
+        height: 106px;
+        line-height: 106px;
+    }
+
+    .startBtn{
+        margin-top: 20px;
+    }
+
+    hr{
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .counter{
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+
+    .selector h3{
+        padding-top: 0px;
+    }
+
+    section h3{
+        padding: 0px 40px 20px 40px;
+
+    }
+
+    .selector p{
+        font-size: 15px;
+        width: 80%;
+        line-height: 20px;
+    }
+
+    .option{
+        width: calc(100% - 20px);
+        height: 40%;
+    }
+
+    hr{
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .one{
+        width: auto;
+        height: auto;
+        margin: 0 15px 25px 15px;
+    }
+    
+    .startBtn{
+        margin-top: 40px;
+        height: 50px;
+    }
+
+    .question-block p{
+        font-size: 17px;
+    }
+
+    .question-block ul{
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    .bg-circle.two{
+        width: 130%;
+       
+    }
+
+    .bg-circle{
+        width: 150%;
+        left: -80%;
+    }
+
+    .endButton{
+        margin-top: 30px;
+        align-self: center;
+    }
+
+    .one.category a{
+        width: calc(40% - 20px);
+        margin: 5px;
+        height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px; 
+    }
+
+    .one.category a:nth-child(3){
+        line-height: 20px;
+    }
+
+    .one.level a{
+        width: calc(29% - 20px);
+        margin: 5px;
+    }
+    .question-block p.score-num{
+        width: 106px;
+        height: 106px;
+        line-height: 106px;
+    }
+
+
+}
+
+@media only screen and (max-height: 700px ){
+
+    body{
+        width: 100vw;
+        height: auto;
+    }
+
+    section{
+        height: 100%;
+    }
+
+    .option{
+        height: 50%;
+    }
+
+    .selector h3{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+
+    section h3{
+        padding-top: 50px;
+    }
+
+    .counter{
+        top: 95%;
+        left: 50%;
+        margin-bottom: 60px;
+    }
+
+    .question-block p{
+        margin-bottom: 20px;
+    }
+
+    .question-block ul{
+        padding-top: 20px;
+    }
+
+    .game-info{
+        margin-top: 0;
+    }
+
+
+    .bg-circle.two{
+        width: 120%;
+       
+    }
+
+    .endButton{
+        margin-bottom: 100px;
+    }
+
+    .startBtn{
+        margin-bottom: 55px;
+        margin-top: 20px;
+    }
+ 
+
+    .question-block{
+        margin-bottom: 50px;
+    }
+}
+
+.decoration {
+    font-family: 'Staatliches', cursive;
+}
