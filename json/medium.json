@@ -60,7 +60,7 @@
             "type": "multiple",
             "difficulty": "medium",
             "question": "81<sup>5</sup> ÷ (3²)<sup>5</sup> =",
-            "correct_answer": "3^10",
+            "correct_answer": "3<sup>10</sup>",
             "incorrect_answers": [
                 "3²",
                 "3<sup>5</sup>",
