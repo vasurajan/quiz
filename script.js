@@ -93,7 +93,7 @@ startButton.addEventListener("click", function () {
 // default api: https://opentdb.com/api.php?amount=" + maxPage + "&category=" + idCategory + "&difficulty=" + level + "&type=multiple
 
 function getInfo() { //getting all the data from API
-    return axios.get("https://raw.githubusercontent.com/vasurajan/devi/master/json/" + level + ".json")
+    return axios.get("https://raw.githubusercontent.com/vasurajan/quiz/master/json/" + level + ".json")
         .then(function (response) {
             // handle success
             dataInfo = response.data.results;
