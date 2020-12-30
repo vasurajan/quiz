@@ -59,7 +59,7 @@
         {
             "type": "multiple",
             "difficulty": "easy",
-            "question": "(5/6)^0 =",
+            "question": "(5/6)<sup>0</sup> =",
             "correct_answer": "1",
             "incorrect_answers": [
                 "6/5",
@@ -70,7 +70,7 @@
         {
             "type": "multiple",
             "difficulty": "easy",
-            "question": "(-1)^50 × (-1)^51 × (1)^100 × (-1)^101 =",
+            "question": "(-1)<sup>50</sup> × (-1)<sup>51</sup> × (1)<sup>100</sup> × (-1)<sup>101</sup> =",
             "correct_answer": "1",
             "incorrect_answers": [
                 "-1",

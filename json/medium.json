@@ -37,7 +37,7 @@
         {
             "type": "multiple",
             "difficulty": "medium",
-            "question": "(2²)^n = (2³)^4, then n = ",
+            "question": "(2²)<sup>n</sup> = (2³)<sup>4</sup>, then n = ",
             "correct_answer": "6",
             "incorrect_answers": [
                 "4",
@@ -48,7 +48,7 @@
         {
             "type": "multiple",
             "difficulty": "medium",
-            "question": "(-7/5)^-1 =",
+            "question": "(-7/5)<sup>-1</sup> =",
             "correct_answer": "-5/7",
             "incorrect_answers": [
                 "5/7",
@@ -59,18 +59,18 @@
         {
             "type": "multiple",
             "difficulty": "medium",
-            "question": "81^5 ÷ (3²)^5 =",
+            "question": "81<sup>5</sup> ÷ (3²)<sup>5</sup> =",
             "correct_answer": "3^10",
             "incorrect_answers": [
                 "3²",
-                "3^5",
+                "3<sup>5</sup>",
                 "none of these"
             ]
         },
         {
             "type": "multiple",
             "difficulty": "medium",
-            "question": "(1/4)^-3 - (1/3)^-3 =",
+            "question": "(1/4)<sup>-3</sup> - (1/3)<sup>-3</sup> =",
             "correct_answer": "37",
             "incorrect_answers": [
                 "1/37",

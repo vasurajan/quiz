@@ -15,8 +15,8 @@
         {
             "type": "multiple",
             "difficulty":"hard",
-            "question": "123.x^2.y - 138.x^2.y is a like term of",
-            "correct_answer": "10.x^2.y",
+            "question": "123.x<sup>2</sup>.y - 138.x<sup>2</sup>.y is a like term of",
+            "correct_answer": "10.x<sup>2</sup>.y",
             "incorrect_answers": [
                 "10.x.y",
                 "-15.x.y",
@@ -26,21 +26,21 @@
         {
             "type": "multiple",
             "difficulty": "hard",
-            "question": "(2^20 ÷ 2^15) × 2^3 =",
-            "correct_answer": "2^8",
+            "question": "(2<sup>20</sup> ÷ 2<sup>15</sup>) × 2<sup>3</sup> =",
+            "correct_answer": "2<sup>8</sup>",
             "incorrect_answers": [
-                "2^15",
-                "2^5",
+                "2<sup>15</sup>",
+                "2<sup>5</sup>",
                 "None of These"
             ]
         },
         {
             "type": "multiple",
             "difficulty":"hard",
-            "question": "(8^2 × 8^4) - 2^18 =",
-            "correct_answer": "2^2",
+            "question": "(8<sup>2</sup> × 8<sup>4</sup>) - 2<sup>18</sup> =",
+            "correct_answer": "2<sup>2</sup>",
             "incorrect_answers": [
-                "2^4",
+                "2<sup>4</sup>",
                 "0",
                 "None of These"
             ]
@@ -48,18 +48,18 @@
         {
             "type": "multiple",
             "difficulty":"hard",
-            "question": "(3^7) ÷ (81 × 3^3) =",
-            "correct_answer": "3^0",
+            "question": "(3<sup>7</sup>) ÷ (81 × 3<sup>3</sup>) =",
+            "correct_answer": "3<sup>0</sup>",
             "incorrect_answers": [
                 "3",
-                "3^2",
+                "3<sup>2</sup>",
                 "None of These"
             ]
         },
         {
             "type": "multiple",
             "difficulty":"hard",
-            "question": "(10 × 5^(n+1)+ 25 × 5^n) ÷ (3 × 5^(n+2)+ 10 × 5^(n+1))",
+            "question": "(10 × 5<sup>(n+1)</sup>+ 25 × 5<sup>n</sup>) ÷ (3 × 5<sup>(n+2)</sup>+ 10 × 5<sup>(n+1)</sup>)",
             "correct_answer": "3/5",
             "incorrect_answers": [
                 "1",

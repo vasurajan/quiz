@@ -6,7 +6,8 @@ const levelList = document.querySelectorAll(".one.level a");
 const startButton = document.querySelector(".startBtn");
 const selector = document.querySelector(".selector");
 const section = document.querySelector("section");
-
+//const catBtn = document.querySelector(".one.category h4");
+//const levBtn = document.querySelector(".one.level h4");
 
 let currentPage = 0;
 let totalRight = 0;
@@ -24,6 +25,8 @@ let maxPage = 7;
 checkId(categoryList);
 checkId(levelList);
 
+//catBtn.addEventListener("click", checkId);
+//levBtn.addEventListener("click", checkLevel);
 
 function checkId(input) {
 
@@ -63,6 +66,17 @@ function checkId(input) {
 
             });
         }
+
+
+
+        /*catBtn.addEventListener("click", function(){
+            if (eachOption.style.display === "none"){
+                eachOption.style.display = "block";  
+            } else {
+                eachOption.style.display = "none";  
+            }
+            
+        }); */
     }
 }
 
@@ -76,14 +90,19 @@ startButton.addEventListener("click", function () {
 
 })
 
-
+// default api: https://opentdb.com/api.php?amount=" + maxPage + "&category=" + idCategory + "&difficulty=" + level + "&type=multiple
 
 function getInfo() { //getting all the data from API
-    return axios.get("https://raw.githubusercontent.com/vasurajan/quiz/master/json/" + level + ".json")
+    return axios.get("https://raw.githubusercontent.com/vasurajan/devi/master/json/" + level + ".json")
         .then(function (response) {
             // handle success
             dataInfo = response.data.results;
             console.log(dataInfo);
+            //render(dataInfo);
+            /*for (let i = currentPage; i < currentPage+1; i++){
+                data = dataInfo[i];
+                render(data); // rendering the array to the DOM
+            }*/
             return dataInfo;
 
         })
